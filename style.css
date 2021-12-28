@@ -194,9 +194,21 @@ footer{
     padding: 10px;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 400px) {
   
     .container{
-        width: 100%;
+        width: 400px;
+    }
+    .sobre{
+        width: 400px;
+    }
+    .apresentacao{
+        width: 400px;
+    }
+    .projetos{
+        width: 400px;
+    }
+    .contato{
+        width: 400px;
     }
 }
