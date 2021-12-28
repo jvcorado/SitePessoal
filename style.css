@@ -114,7 +114,6 @@ section{
     justify-content: center;  
 }
 .conteudo-projetos{
-    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -193,13 +192,8 @@ footer{
 }
 
 @media screen and (min-width: 500px) {
-    
-    body{
-       
-    }
+  
     .container{
-        width: 2500px;
-        height: 2500px;
-        margin: auto;
+        width: 100%;
     }
 }
