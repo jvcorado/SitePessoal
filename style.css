@@ -10,11 +10,11 @@ body{
   
 }
 .container{
-    max-width: 420px;
+    width: 100%;
     height: 100%;  
 }
 section{
-    max-width: 420px;
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,6 +26,7 @@ section{
 }
 .apresentacao{
     background-image: url(img/programming_code_screen_207262_2560x1440.jpg);
+    width: 100%;
     height: 700px;
     display: flex;
     align-items: center;
@@ -42,6 +43,7 @@ section{
 }
 .sobre{
     background-color: #ffffff;
+    width: 100%;
     height: 500px;
     display: flex;
     align-items: center;
@@ -61,6 +63,7 @@ section{
 
 .habilidades{
     background-color: #033860;
+    width: 100%;
     height: 500px;
     display: flex;
     align-items: center;
@@ -105,7 +108,7 @@ section{
     font-weight: 500;
 }
 .projetos{
-    width: 375px;
+    width: 100%;
     background-color: #ffffff;
     height: 500px;
     display: flex;
