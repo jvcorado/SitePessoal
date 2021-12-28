@@ -25,7 +25,7 @@ section{
     border-top: 5px solid rgba(196, 195, 195, 0.808);
 }
 .apresentacao{
-    background-color: brown;
+    background-image: url(img/programming_code_screen_207262_2560x1440.jpg);
     height: 700px;
     display: flex;
     align-items: center;
