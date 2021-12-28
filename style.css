@@ -10,12 +10,11 @@ body{
   
 }
 .container{
-    max-width: 400px;
-
+    max-width: 420px;
     height: 100%;  
 }
 section{
-    width: 400px;
+    max-width: 420px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +25,7 @@ section{
     border-top: 5px solid rgba(196, 195, 195, 0.808);
 }
 .apresentacao{
-    background-image: url(img/programming_code_screen_207262_2560x1440.jpg);
+    background-color: brown;
     height: 700px;
     display: flex;
     align-items: center;
