@@ -145,21 +145,17 @@ section{
     font-size: 1em;
     padding: 5px;
 }
-.conteudo-projetos div{
+.conteudo-projetos a{
     border-radius: 0px 0px  5px 5px ;
     height: 40px;
     background-color: #FF7F11;
 }
 
-.conteudo-projetos div img{
+.conteudo-projetos img{
     width: 10%;
 }
-.conteudo-projetos #redes-sociais{
-    margin-top: 36px;
-}
-.conteudo-projetos #webmobile{
-    margin-top: 18px;
-}
+
+
 
 .contato{
     background-color: #087CA7;
