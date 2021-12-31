@@ -120,6 +120,7 @@ section{
     display: flex;
     text-align: center;
     justify-content: center;
+    flex-direction: column;
 }
 .div{
     background-color: rgb(143, 122, 122);
