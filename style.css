@@ -116,7 +116,10 @@ section{
     flex-direction: row;
 }
 .conteudo-projetos{
+    width: 375px;
     display: flex;
+    text-align: center;
+    justify-content: center;
 }
 .div{
     background-color: rgb(143, 122, 122);
