@@ -23,7 +23,7 @@ section{
     padding: 20px;
     margin: auto;
     text-align: center;
-    border-top: 5px solid rgba(196, 195, 195, 0.808);
+    border-top: 5px solid rgba(0, 0, 0, 0.808);
 }
 .apresentacao{
     background-image: url(img/programming_code_screen_207262_2560x1440.jpg);
@@ -155,23 +155,22 @@ section{
 }
 
 .div-projetos img{
-    padding-top:3px ;
     width:95px;
     height: 95px;
     border-radius: 5px 5px 0 0 ;
     
 }
-
 .contato{
     background-color: #087CA7;
+    color: white;
     width: 100%;
     height: 500px;
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;  
 }
-.contato img{
+.contato .logo-contato{
     width: 150px;
 }
 .lista-contato{
@@ -180,12 +179,14 @@ section{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    
 }
 .lista-contato li{
     padding: 5px;
   
 }
 footer{
+    border-top: 5px solid rgba(0, 0, 0, 0.808);
     width: 100%;
     background-color: #416165;
     display: flex;
@@ -196,7 +197,13 @@ footer{
 }
 
 @media screen and (min-width: 500px) {
-  
+    
+    .sobre img{
+        width: 250px;
+    }
+    .habilidades img{
+        width: 300px;
+    }
     .projetos{
         background-color: blueviolet;
     }
@@ -205,11 +212,15 @@ footer{
         font-size: 1em;
     }
     .div-projetos:hover{
-        border: 3px solid white;
+        border: 3px solid rgb(255, 255, 255);
     }
     .div-projetos img{
         width: 145px;
         height: 145px;
         border-radius: 5px 5px 0 0 ;
     }
+    .contato .logo-contato{
+        width: 250px;
+    }
+   
 }
