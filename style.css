@@ -108,6 +108,7 @@ section{
     font-size:0.9em;
     font-weight: 500;
 }
+
 .projetos{
     background-color: white;
     display: flex;
@@ -115,7 +116,11 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   
+    
+}
+.projetos h1{
+    text0a
+    margin-bottom: 30px;
 }
 .conteudo-projetos{
     display: flex;
@@ -125,9 +130,15 @@ section{
     flex-direction: row;
     
 }
-.div{
+.conteudo-projetos a{
     width: 100%;
-    background-color: blue;
+    background-color: yellow;
+    border-radius: 0 0 5px 5px ;
+}
+
+.div-projetos{
+    width: 150px;
+    background-color: rgb(175, 175, 175);
     display: flex;
     text-align: center;
     align-items: center;
@@ -135,13 +146,19 @@ section{
     flex-direction: column;
     margin: 10px;
     border-radius: 5px ;
-    font-size: 0.7em;
+    font-size: 1em;  
+    
+}
+.div-projetos:hover{
+    border: 3px solid white;
 }
 
-.div img{
-    width: 100%;
-    height: 100px;
+.div-projetos img{
+    padding-top:3px ;
+    width:145px;
+    height: 147px;
     border-radius: 5px 5px 0 0 ;
+    
 }
 
 .contato{
