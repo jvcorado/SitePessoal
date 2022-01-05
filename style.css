@@ -109,41 +109,38 @@ section{
     font-weight: 500;
 }
 .projetos{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-}
-.conteudo-projetos{
-    width: 375px;
+    background-color: white;
     display: flex;
     text-align: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.div{
-    background-color: rgb(143, 122, 122);
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 20px;  
-    border-radius: 5px;
-}
-
-
-.div img{
-    width: 150px;
-    height: 150px;
-    border-radius: 5px;
    
 }
-.conteudo-projetos #redes-sociais{
-    margin-top: 36px;
+.conteudo-projetos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
 }
-.conteudo-projetos #webmobile{
-    margin-top: 18px;
+.div{
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 5px ;
+}
+
+.div img{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px 5px 0 0 ;
 }
 
 .contato{
@@ -179,21 +176,14 @@ footer{
     padding: 10px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 500px) {
   
-    .container{
-        width: 400px;
-    }
-    .sobre{
-        width: 400px;
-    }
-    .apresentacao{
-        width: 400px;
-    }
     .projetos{
-        width: 400px;
+        background-color: blueviolet;
     }
-    .contato{
-        width: 400px;
+    .div img{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px 5px 0 0 ;
     }
 }
